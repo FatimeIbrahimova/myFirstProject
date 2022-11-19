@@ -1,0 +1,58 @@
+#price {
+    position: relative;
+}
+
+#price::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    width: 0px;
+    height: 2px;
+    bottom: 4px;
+    background-color: brown;
+    transition: .5s;
+}
+
+#price:hover::after {
+    width: 50px;
+}
+
+#price ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    bottom: -150px;
+    width: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#price:hover ul {
+    visibility: visible;
+}
+
+#price ul li {
+    cursor: pointer;
+}
+
+#price ul li:hover {
+    color: red;
+}
+
+.naw-icon {
+    position: relative;
+}
+
+.naw-icon .hamburger {
+    position: absolute;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.naw-icon:active .hamburger {
+    visibility: visible;
+}
