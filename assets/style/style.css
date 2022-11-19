@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-image: url(../media/Frame\ 1.png);
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+/* .naw-wrapper{
+    background-color: rgba(205, 200, 200, 0.25);
+    
+} */
+.top-nawbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.container{
+    padding: 0px 10%;
+}
+.naw-header{
+    position: relative;
+}
+.naw-link{
+    position: absolute;
+    margin: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+ .naw-link ul{
+    display: flex;
+    list-style: none;
+}
+.naw-link ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.naw-link ul li{
+    padding: 10px;
+}
+.naw-link ul li a:hover{
+    color:red;
+}
+#hero-section article{
+    display: flex;
+    width:30%;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+}
+#hero-section article h1{
+    font-weight: 120px;
+    color: black;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 110px;
+}
+#hero-section article p{
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.btn{
+    width:150px;
+    border-radius: 20px;
+    height: 35px;
+    /* flex-direction: row; */
+}
+.button .btn-1{
+ background-color: rgba(120, 79, 51, 1);
+ color: white;
+ font-weight: 30px;
+}
+.button .btn-2{
+    margin-left: 10px;
+    border-color: rgba(120, 79, 51, 1);
+    font-weight: 30px;
+}
