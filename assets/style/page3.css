@@ -1,0 +1,85 @@
+.page3 {
+    background-color: #FFFFFF;
+    height: 100vh;
+    position: relative;
+    top: 100px
+}
+
+.container2 {
+    padding: 0px 10%;
+}
+
+.main3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 400px;
+
+}
+
+.col-6 {
+    position: absolute;
+    bottom: -260px;
+    gap: 30px;
+}
+
+.col-6 img {
+    width: 600px;
+    height: 400px;
+}
+
+.col-6 .rightside {
+    position: absolute;
+    right: 200px;
+    bottom: 4px;
+    left: 750px;
+    width: 350px;
+    height: 400px;
+}
+
+.rightside h1 {
+    font-family: 'Martel', serif;
+    color: #252B42
+}
+
+.rightside p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 12px;
+    color: #737373;
+    font-size: 14px;
+}
+
+.right-svg {
+    margin-top: -4px;
+}
+
+.right-svg1 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-svg1 h3 {
+    font-size: 16px;
+}
+
+.small-title1 {
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.small-title1 h6 {
+    margin-top: -10px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1px;
+    color: rgba(115, 115, 115, 1)
+}
+
+.fa-brands {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
