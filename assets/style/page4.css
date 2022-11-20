@@ -2,7 +2,7 @@
     background-color: rgba(250, 250, 250, 1);
     height: 45vh;
     position: relative;
-    top: 100px
+    top: 100px;
 }
 
 .container2 {
@@ -51,7 +51,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-button {
+.blue-div button {
     background-color: rgba(208, 161, 68, 1);
     color: rgba(230, 230, 230, 1);
     border-color: rgba(230, 230, 230, 1);

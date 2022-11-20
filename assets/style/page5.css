@@ -1,0 +1,103 @@
+.page5 {
+    height: 100vh;
+    position: relative;
+    background-color: rgba(243, 243, 243, 1);
+    top: 100px;
+}
+
+.container2 {
+    padding: 0px 10%;
+    width: 80%;
+}
+
+.container2 .title3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 90px;
+    left: 32%;
+    width: 500px;
+}
+
+.container2 .title3 h1 {
+    font-family: 'Martel', serif;
+    font-style: bold;
+    color: rgba(37, 43, 66, 1);
+}
+
+.container2 .title3 p {
+    margin-top: 10px;
+    color: rgba(115, 115, 115, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.cols2 {
+    position: absolute;
+    display: flex;
+    margin-top: 300px;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.col-4 {
+    height: 350px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-4 h5 {
+    font-family: 'Martel', serif;
+}
+
+.blue-col {
+    background-color: rgba(37, 43, 66, 1);
+    height: 380px;
+    margin-top: -17px;
+    width: 380px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.blue-col h6 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.blue-col .submit {
+    background-color: rgba(37, 43, 66, 1);
+    ;
+}
+
+.cols2 svg {
+    padding-bottom: 15px;
+}
+
+.cols2 .col-4 h6 {
+    color: rgba(37, 43, 66, 1);
+    font-size: 14px;
+    padding-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    font-size: 12px;
+}
+
+.cols2 .col-4 h5 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.submit {
+    border-radius: 2px;
+    color: rgba(208, 161, 68, 1);
+    border-color: rgba(208, 161, 68, 1);
+    width: 120px;
+    height: 30px;
+}
